@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.escenario {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: black;
+    position: relative;
+}
+
+.medio {
+    height: 100%;
+    width: 1px;
+    border-left: 2px dashed white;
+    position: absolute;
+    left: 50%;
+}
+
+.pong {
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    background-color: white;
+    transition: 0.2s;
+}
+
+#pong1 {
+    top: 0;
+    left: 10px;
+}
+
+#pong2 {
+    top: 0;
+    right: 10px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    left: calc(50% - 10px);
+    top: calc(50% - 10px);
+}
